@@ -1,5 +1,5 @@
 streamlit
 pandas
-pandasai==1.5.0
 openai
-matplotlib
+pandasai
+seaborn
