@@ -3,4 +3,3 @@ pandas
 pandasai
 openai
 matplotlib
-sqlglot
