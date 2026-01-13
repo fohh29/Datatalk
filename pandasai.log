@@ -1,0 +1,678 @@
+2026-01-13 14:35:34 [INFO] Question: Which game has the highest rating?
+2026-01-13 14:35:34 [INFO] Running PandasAI with openai LLM...
+2026-01-13 14:35:34 [INFO] Prompt ID: b2b8159b-ff49-4ed9-b871-2f8975a50993
+2026-01-13 14:35:34 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 14:35:34 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 14:35:34 [INFO] Executing Step 1: CacheLookup
+2026-01-13 14:35:34 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 14:35:34 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+828,Crysis,"Dec 06, 1992",['PopCap Games'],3.3,221,242,"['Brawler', 'Fighting', 'Indie']","This third-person dark fantasy Western RPG and sequel to The Witcher (2007), featuring multiple endings and branching narrative paths, follows the travels of Geralt of Rivia, witcher, who, after being falsely accused of regicide, sets out to clear his name and find the real killer, in a time of political turmoil and the brink of war between the imperialistic Nilfgaardian Empire and the Four Kingdoms.","['não jogo toda hora, mas o jogo é divertido, tem vários crosovers dahora e mods tbm', 'one way to make me completely uninterested in a fighting game is to make moves overlap on like 20% of the cast each', 'uhhhhh', 'I love Brawlhalla, I think it is a very good game, still playing it, the only reason why I am not giving it 5 stars is because it could definitely be balanced better, an example being Katars and Battleboots. And this is probably a skill issue but I think sigs are generally just too fast, and I think all of em should have more end lag and startup lag. Just my opinion though.', '1kh says it all', 'Clon de smash pero la gente se la vive en el online, bueno para pasar el rato']",3K,258,213,3.4K
+520,Agar.io,"Feb 25, 2016","['Portkey Games', 'Avalanche Software']",3.1,753,460,"['Adventure', 'Indie', 'Puzzle', 'RPG']","Mario Party 3 is the third and final Mario Party title for the Nintendo 64. A total of eight characters are available to choose from: Mario, Luigi, Princess Peach, Yoshi, Wario, Donkey Kong, and newcomers Waluigi and Princess Daisy. Mario Party 3 features duel maps, in which two players try to lower each other's stamina to zero using non-playable characters such as Chain Chomps. It is the first Mario Party game to feature Luigi's main voice and also it is last Mario game where Princess Daisy appears in a yellow and white dress, and with long hair, as well as the last Mario game (until New Super Mario Bros. Wii) in which Yoshi's ""record-scratching"" voice is used. It is also the first Mario Party game to have multiple save slots.","[""truly one of the greatest visual novels ever released if not the best. it has a memorable, lively, unique and lovable cast of characters (though miles edgeworth is obviously the one who shines the most), which is not something we usually encounter in a visual novel. the cases gradually got better and better and the last case was a literal masterpiece. the fourth case was my favorite though since the character development in this is just so heartwarming. the dialogue in this game never ever bored me, i did not skip ONE dialogue in this game and this is the first time this happened to me in a visual novel. everything is just so well written, the story is always exciting and makes you curious about what will happen in the next testimony and you also always wonder how the things will turn out while investigating. the soundtrack and the character sprites are also very well done and both of these play a big role in this game's charm.\n                     \n                     to summarize all of the written above, phoenix wright: ace attorney has the most fun you can have in a visual novel and is overall a phenomenal video game."", 'A great start to the legendary lawyer.', 'EDGEWORTH I LOVE YOU PLEASE BE REAL', '""OBJECTION!!!""', 'vi o anime uma vez e pretendo jogar', ""Another game with personal significance - I had been getting out of videogames as a hobby for a couple years but my friend showed me this and, combined with Cooking Mama, it opened my eyes to genres I had never seen before, bringing me back in. Happy to say it holds up wonderfully. Presentation-wise\n                     \n                      Phoenix Wright\n                     \n                     is a masterclass in minimalism, doing a lot with just some text, dramatic music cues, and a few choice animations per character. It can still be annoying when you get stuck not knowing where to go in an investigation phase or when to present the piece of evidence that will blow the whole case wide open, but the charming writing/localization prevails and besides, it's pretty smooth 75% of the time. You even get a little bit of social commentary on the Japanese justice system (though not to put too fine a point on it - this is a very goofy game with a childish worldview of good guys and bad guys).""]",61,106,388,790
+1375,Donut County,"Jul 17, 2008","['Bandai Namco Entertainment', 'Bandai Namco Studios']",2.5,988,267,"['Music', 'Shooter']","Twisted Metal consists of a series of arena-based battles against an increasing number of opponents in increasingly large arenas. These battles culminate in a face-off with the winner of the previous year's competition, Darkside, who drives a large armored car which fires multiple missiles at once.
+             
+
+              Players can choose one of 12 different vehicles with which to enter combat. Each vehicle has a distinct driver and special move. The controls consist of accelerator, brake, ""tight turn"" (essentially a handbrake) and turbo on the face buttons, with main weapons and machine gun selection and control on the shoulder buttons.
+             
+
+              Arenas are populated with weapon pickups to re-supply missile stocks, repair stations for repairing damage to your car, pedestrians, and course stewards armed with either machine guns or missile launchers.","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",7.9K,436,535,417
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which game has the highest rating?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 14:35:34 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 14:35:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-01-13 14:35:35 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyDx***************************jeDI. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-13 14:36:37 [INFO] Question: Which game has the highest rating?
+2026-01-13 14:36:37 [INFO] Running PandasAI with openai LLM...
+2026-01-13 14:36:37 [INFO] Prompt ID: c5b72e26-b1b8-4b08-aa69-e0e25cf2bb67
+2026-01-13 14:36:37 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 14:36:37 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 14:36:37 [INFO] Executing Step 1: CacheLookup
+2026-01-13 14:36:37 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 14:36:37 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+1065,Guilty Gear: Strive,"Jan 31, 2008","['Obsidian Entertainment', 'Private Division']",4.2,174,70,"['Adventure', 'Indie', 'Shooter']","Left 4 Dead 2 is a cooperative first-person shooter video game, the sequel to Valve Corporation's Left 4 Dead. The Game builds upon cooperatively focused gameplay and Valve's proprietary Source engine, the same game engine used in the original Left 4 Dead. Set during the aftermath of an apocalyptic pandemic, Left 4 Dead 2 focuses on four new Survivors, fighting against hordes of the Infected, who develop severe psychosis and exhibit zombie-like tendencies. The Survivors must fight their way through five campaigns, interspersed with safe houses that act as checkpoints, with the goal of escape at each campaign's finale.","['Underrated.', 'A grandes rasgos, es como un MMO pero para un jugador. Me explico:', 'peak kino\n                     \n                     raw soul\n                     \n                     i got my pawn shittalked in a /v/ thread in 2015', ""I got this way back when on release and absolutely hated it. Returned to it to play Dark Arisen on Steam in 2022 and realized there's a lot of charm and fun to be had here. I maybe only spent around 20 more hours with it, but I enjoyed them. Looking forward to the sequel tbh."", 'ok knorke', 'Muito pika puta merda, gameplay incrivel, exploração boa, lutas contra inimigos enormes muito foda, jogão']",597,311,989,497
+1330,FIFA 23,"Aug 23, 2011","['Dean ""ppy"" Herbert']",3.0,266,173,"['Point-and-Click', 'Puzzle', 'Visual Novel']","Yu-Gi-Oh! Master Duel lets players old and new enjoy the hugely popular Yu-Gi-Oh! TCG in digital form. Players across the globe can compete in intense collectible card Duels, both thrilling to play and watch. Alongside those iconic cards will be a huge range of other monsters, spells, traps, and more, drawn from Yu-Gi-Oh's two-decade-long legacy.","[""As a child who constantly bounced his leg whenever I was in a seated position, and an adult who occasionally still does, I have never felt more understanding towards a Castlevania protagonist than I have towards Eric Lecarde, who's not even on this damn boxart."", ""Compared to the other 16-bit castlevanias (rondo of blood and super 4), this game I feel is the weakest out of the 3. That isn't to say this game is bad, but more that the controls and level design is better in those games and while this games OST is certainly better than super castlevania 4s, it doesn't even come close to touching rondo of bloods OST. All in all, a neat more obscure castlevania game, but nothing essential to the castlevania playing experience imo, its just a solid castlevania game and thats kinda it"", 'Pretty sure this is my favorite Castlevania now. You play as a buff guy from Texas and he has the Bionic Commando grapple swing. Just what the series was missing.', 'Solid game. I was a bit annoyed with a few of the stages and bosses, but most of the game was great. I was a big fan of a lot of the weirder visuals, especially toward the end. Might return to it another day to play as the other character.', 'Yes. This was a very great Castlevania game. Not very long, not too hard, awesome music (expected), awesome character models, fair difficulty, and cool level design (expected). I was very content playing this, and on my second play through one day, I’ll make sure to use the other character you can choose. I am so glad this is on the switch.', 'The best classic Castlevania game hands-down. Shame they un-femboyed Eric in the English release.']",1,509,353,360
+564,Kentucky Route Zero: TV Edition,"Oct 17, 2013","['Gathering of Developers', 'Remedy Entertainment']",2.4,482,1.1K,"['Arcade', 'Platform', 'Shooter']","Bubble Dreamer, Rayman, his best friend Globox, and some Teensy friends are chilling out at the Bubble Dreamer's resting grounds, the Snoring Tree. However, their snoring disturbs an old granny from the Land of the Livid Dead, who retaliates by sending an evil army of horrendous creatures and the Darktoons across the world, capturing the Electoons that inhabit the world, imprisoning Betilla the Nymph and her sisters, and plunging the Glade into chaos. As a result, the ensuing disaster causes the Bubble Dreamer to go crazy and have nightmares. Although they are captured, Rayman and his friends are able to escape the Darktoons. They are then tasked by the Magician to gather enough Electoons to cure the Bubble Dreamer and restore the Glade of Dreams. Their efforts to locate the Electoons allow them to gain access to the various lands of the Glade, rescuing the Nymphs along the way.","['Fucking love Tetris. Timeless game.', 'A great colorful port of the arcade classic, featuring two game modes.', 'Hard tetris game to go wrong with, albeit not as iconic as the game boy version. The A-type is your classic endless game of tetris, and the B-type involves clearing a certain amount of garbage blocks. Plays by ""asshole tetris"" rules, where blocks are pure random so you can get completely screwed by RNG. My major gripe with this game is the controls. Moving blocks left to right is very slow and it feels like the blocks rotate in a way where I keep accidentally misplacing them. No hard drops either. I respect the people that play this competitively for learning how to master the controls, because I sure as hell had a hard time. Getting the ending of the game by clearing a level 9 speed 5 height B game is a total crap shoot due to the RNG of what blocks you get and the arrangement of the garbage blocks, so just stick to the A-game. Not my favorite version of tetris but still does the job.', 'HOOOOOLY FUUUUUCK', 'Bem simples mas exige bastante estratégia e sorte, mesmo não curtindo muito seu gênero consigo me divertir um pouquinho, vale a pena jogar pelo valor histórico.', 'https://youtu.be/80RtBeB61LE']",969,103,491,129
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which game has the highest rating?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 14:36:37 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 14:36:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-01-13 14:36:37 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyCi***************************mLX4. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-13 14:54:10 [INFO] Question: Which game has the highest rating?
+2026-01-13 14:54:10 [INFO] Running PandasAI with openai LLM...
+2026-01-13 14:54:10 [INFO] Prompt ID: ea895f91-e07a-4584-9049-6a1a60af0b38
+2026-01-13 14:54:10 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 14:54:10 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 14:54:10 [INFO] Executing Step 1: CacheLookup
+2026-01-13 14:54:10 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 14:54:10 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+246,Pokémon Ruby,"Sep 23, 2003","['Nintendo', 'Level-5']",1.6,500,609,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'Strategy']","In the game, each player controls one of the two Bubble Dragons, Bub and Bob. The player can move along platforms, as well as jump to those above and to the side, similar to most platform games.
+             
+
+              The player can also blow bubbles. These can trap enemies, who are defeated if the bubble is then burst by the player's spiny back. Bubbles that contain enemies can be popped at the same time resulting in different foods being projected around the level. Each enemy trapped in a bubble equates to a different food. Food is consumed and transferred to points (an increasing scale of 1000 points is awarded for each enemy burst in tandem with another meaning: one enemy burst equals one food item worth 1000 points, two enemies burst equals two food items worth 1000 and 2000 points, three enemies burst equals three food items worth 1000, 2000 and 4000 points, and so on), which results in earning lives. These same bubbles also float for a time before bursting, and can be jumped on, allowing access to otherwise inaccessible areas. Players progress to the next level once all enemies on the current level are defeated.
+             
+
+              Enemies turn ""angry"" — becoming pink-colored and moving faster — if they are the last enemy remaining, escape from a bubble after being left too long or a certain amount of time has been spent on the current level. A monster will also become angry if either player collects a skull (the only negative item in the game), and the monster is hit by the resulting comet crossing the screen (however, this is a rare occurrence).
+             
+
+              After a further time limit expires, an additional invincible enemy appears for each player, actively chasing them using only vertical and horizontal movements. These do not need to be defeated to complete the level, and disappear once a player's life is lost.
+             
+
+              Contact with enemies and their projectiles (rocks, lasers, fireballs, etc.) results in death.","['Machine Girl the Video Game', 'Esse jogo é muito bom, dos jogos de ""speedrun"" esse é o mais divertido.\n                     \n                     A história desse jogo é legalzinha, não compre esperando um jogo com história complexa e tocante, é uma história bobinha só para não deixar os personagem estarem ali só por estar.\n                     \n                     A melhor parte do jogo é definitivamente a gameplay e o level desing, esses dois fatores combinam tão bem juntos que depois de se acostumar ao jogo, mesmo sendo a primeira vez na fase tu já vê um possível atalho ou ate mesmo um segredo.\n                     \n                     Acho esse jogo muito pouco reconhecido, tanto que eu só fui descobrir que ele lançou 4 meses depois do seu lançamento.', 'A high-speed mix of a puzzle platformer and FPS,\n                     \n                      Neon White\n                     \n                     is a stylish speedrunner\'s dream. You play as the eponymous ""Neon White"" as you fight demons to improve your credit score enough to not be vaporized by the forces of Heaven for another year, in a vague\n                     \n                      The World Ends With You\n                     \n                     type competition. To assist in your demon hunting, there are a number of different weapon cards that provide some ammunition, or a secondary movement ability. While defeating all the demons in a level is the stated goal, in reality the game is about navigating yourself between platforms, using the ability of the cards to assist you. The environments are great looking, and the soundtrack is incredible. The game has an arcade/Dreamcast gameplay loop, where it\'s incredibly addicting to play level after level, memorizing the way forward to get the best times. If this game was just a level select screen, I think it might be my favorite game of the year thus far, but sadly this game has one major flaw, and that is the plot. It\'s an incredibly stereotypical anime amnesia plot full of boring psychopathic enemies, cringy sexual innuendos, and awful voice acting. Yes, I know the guy who played Spike is in it, but this is not his best performance. I ended up muting the voice audio, and that helped quite a bit, but the plot still has nothing to offer. If you skip all the cutscenes though, I think this game is definitely a must play.', 'This gets 4 stars because of the great artstyle, S tier Machine Girl music, interesting gameplay gimmics, and great level design. -1 star for the story and visual novel aspects.', 'Neon White é uma mistura de FPS com Visual Novel, pode parecer uma mistura estranha a primeiro momento,\n                     \n                     mas depois de alguns minutos de gameplay esse jogo vai sugar sua alma até os segundos finais da gameplay.\n                     \n                     Agora pega isso e coloca um toque de Speedrun... Pronto, NEON WHITE!\n                     \n                     A gameplay é absurdamente prazerosa, misturando tiroteios freneticos com um sistema parkour.\n                     \n                     Em relação a Visual Novel e a historia, não é a melhor historia de todos os tempos, mas cumpre seu papel em\n                     \n                     dar um background pro jogo.', ""i think this is more-or-less the game I was looking for when I bought mirror's edge in 2008""]",28K,374,452,1K
+213,Vagrant Story,"Jun 19, 2010","['Activision', 'id Software']",2.1,131,860,"['Adventure', 'Indie', 'Puzzle', 'Shooter']","The game is set in Ancient Greece and loosely based on its mythology. The player controls Kratos, a Spartan warrior in the service of the Olympian Gods. Kratos is guided by the goddess Athena, who instructs him to find the Sun God Helios, as the Dream God Morpheus has caused the remaining gods to slumber in Helios' absence. With the power of the sun, Morpheus and Persephone, the Queen of the Underworld, with the aid of the Titan Atlas, intend to destroy the Pillar of the World and in turn Olympus. God of War: Chains of Olympus is chronologically the second chapter in the series, which focuses on vengeance as its central theme.","['Played the beta on a friends ps3 and thought the game looked so good that I decided to get a ps3 to play it too. The art direction still holds up in a lot of ways and even though the campaign is disappointing it was still fun to play with the different classes in multilayer.', 'Killzone 3 is a first person shooter exclusive for the Playstation 3 released in 2011 and developed by Guerilla Games. Over the past year or so I’ve decided to go through the Killzone games after beating almost all the Halo series and the Resistance series (which I’ll review at some point later on). Having beaten Killzone 2 last year and temporarily given up on Mercenary after having my save data corrupted unknowingly, and with a buddy of mine going through the Killzone series on the highest difficulty as well. I decided to give this game a spin, and I have some thoughts. First I’ll go with the plot.', 'Rating: 7/10 -  Good', 'My review for killzone 2 applies here but the story is way worse. the gameplay is way more fun but they sacrificed the world building they set up for the past two games and it is a major blow to the franchise.', 'Great game despite ruining the franchise', 'Too short, controls too janky, predictable story, audio bugs.']",365,85,324,388
+879,Shin Megami Tensei: Devil Summoner - Soul Hackers,"Mar 26, 2021","['Nintendo', 'Square Enix']",2.9,46,355,"['Adventure', 'Puzzle', 'RPG', 'Simulator', 'Visual Novel']","Metal Gear Solid is a stealth game created by Hideo Kojima which follows the MSX2 video games Metal Gear and Metal Gear 2: Solid Snake. Despite a transition to 3D, Metal Gear Solid's gameplay remains similar to his predecessors. The game utilizes a traditional top-down view and the player must navigate the protagonist Solid Snake through the game's areas without being detected. Detection will set off an alarm which draws armed enemies to his location. Conversations with Snake's allies and cutscenes are used extensively to advance the plot and gain more insight into it. Metal Gear Solid is regarded as one of the greatest and most important video games of all time, and helped popularize the stealth genre and in-engine cinematic cutscenes.","['for whatever reason this game just completely vibes with me - when I am farming in another farming sim I think wistfully of my beautiful farm over in this game', 'I liked the character events and side quests, the farming was pretty good if lacking in depth when compared to other games, combat is not very good unfortunately, dungeon design is good through the early game, and around the same time those fall off the story does too, but ultimately i think theres a lot more good content than bad.', 'Honestly, the older I get, the more I realize how much I hate time-wasting mechanics.\n                     \n                     I really dislike stamina bars and time restrictions that limit what I can do in a ""day"", especially when that stamina bar dictates everything - from exploration to combat - and does not regenerate automatically for some fucking reason. I dislike trekking through overly-long levels and dungeons with a bunch of inconsequential loot as a reward for exploration. I dislike meandering story-telling where all of the characters are idiots and the pacing is constantly slowed down to explain things to you or being forced to ""regroup"" and stop your exploration.\n                     \n                     I\'ve just been having such a hard time getting into JRPGs lately, even though it used to be one of my favourite genres to play, and I dislike that I don\'t have the patience for this genre any more. As an adult and having to manage my time to make a place for things I enjoy like gaming and movies and reading, I really appreciate a game that doesn\'t waste my time more than anything else in the world.', ""The game is pretty clunky in many aspects:\n                     \n                     -plot is really bad (shitty time travel plot with clueless MC in medieval(relative to the world) times. am I supposed to scream in joy and feel smart when I hear about nanomachines, robots and other futuristic shit that every character is clueless about in a FARMING SIM.)\n                     \n                     -combat is a snoozefest with overly big dungeons\n                     \n                     -progression is fucked beyond repair (you need to play ungodly amount of time to upgrade tools, not sure if you ever get an opportunity to befriend characters (not that any of them are likeable enough)\n                     \n                     -you do quests for generic NPC's (why? totally blows social aspect from farming sims that people look for)\n                     \n                     - in medieval(relative to the world) times every dude looks like a femboy and I'm not talking about NB-gay-whatever shit that makes people avoid this game"", ""Can actually play as non-binary for once! 🙏\n                     \n                      Really\n                     \n                     makes a difference, considering the protagonist is meant to be relatively self-insert.\n                     \n                     Graphics on Switch version are often very bleary, especially noticeable in handheld mode. Shame, because it's otherwise very pretty. The character art is lovely.\n                     \n                     Engaging gameplay, allowing the player to create their own balance between farming and JRPG elements, without forcing either. It is more JRPG than it is farming sim (the farming doesn't have the same depth as is found in others of the genre), but one can take the quests and story at their own pace.\n                     \n                     Varied job system, and the story is interesting enough so far. Has side quests I actually want to do.\n                     \n                     Appealing characters (moreso for me when compared with other farming life sims). Everyone has nice voice acting – too bad it's limited to small lines here and there.\n                     \n                     Romance options are not gender-locked~\n                     \n                     And the music is lovely... Would definitely purchase the soundtrack if they release that."", 'Ich mag den Mix aus Farming Simulation und JRPG auch wenn das Storytelling etwas plump ist und nicht wirklich spannend erzählt. Die Dialoge sind sehr inhaltlos aber das Gameplay macht Spaß und unterhält.']",522,575,145,210
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which game has the highest rating?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 14:54:10 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 14:54:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-13 14:54:16 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+246,Pokémon Ruby,"Sep 23, 2003","['Nintendo', 'Level-5']",1.6,500,609,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'Strategy']","In the game, each player controls one of the two Bubble Dragons, Bub and Bob. The player can move along platforms, as well as jump to those above and to the side, similar to most platform games.
+             
+
+              The player can also blow bubbles. These can trap enemies, who are defeated if the bubble is then burst by the player's spiny back. Bubbles that contain enemies can be popped at the same time resulting in different foods being projected around the level. Each enemy trapped in a bubble equates to a different food. Food is consumed and transferred to points (an increasing scale of 1000 points is awarded for each enemy burst in tandem with another meaning: one enemy burst equals one food item worth 1000 points, two enemies burst equals two food items worth 1000 and 2000 points, three enemies burst equals three food items worth 1000, 2000 and 4000 points, and so on), which results in earning lives. These same bubbles also float for a time before bursting, and can be jumped on, allowing access to otherwise inaccessible areas. Players progress to the next level once all enemies on the current level are defeated.
+             
+
+              Enemies turn ""angry"" — becoming pink-colored and moving faster — if they are the last enemy remaining, escape from a bubble after being left too long or a certain amount of time has been spent on the current level. A monster will also become angry if either player collects a skull (the only negative item in the game), and the monster is hit by the resulting comet crossing the screen (however, this is a rare occurrence).
+             
+
+              After a further time limit expires, an additional invincible enemy appears for each player, actively chasing them using only vertical and horizontal movements. These do not need to be defeated to complete the level, and disappear once a player's life is lost.
+             
+
+              Contact with enemies and their projectiles (rocks, lasers, fireballs, etc.) results in death.","['Machine Girl the Video Game', 'Esse jogo é muito bom, dos jogos de ""speedrun"" esse é o mais divertido.\n                     \n                     A história desse jogo é legalzinha, não compre esperando um jogo com história complexa e tocante, é uma história bobinha só para não deixar os personagem estarem ali só por estar.\n                     \n                     A melhor parte do jogo é definitivamente a gameplay e o level desing, esses dois fatores combinam tão bem juntos que depois de se acostumar ao jogo, mesmo sendo a primeira vez na fase tu já vê um possível atalho ou ate mesmo um segredo.\n                     \n                     Acho esse jogo muito pouco reconhecido, tanto que eu só fui descobrir que ele lançou 4 meses depois do seu lançamento.', 'A high-speed mix of a puzzle platformer and FPS,\n                     \n                      Neon White\n                     \n                     is a stylish speedrunner\'s dream. You play as the eponymous ""Neon White"" as you fight demons to improve your credit score enough to not be vaporized by the forces of Heaven for another year, in a vague\n                     \n                      The World Ends With You\n                     \n                     type competition. To assist in your demon hunting, there are a number of different weapon cards that provide some ammunition, or a secondary movement ability. While defeating all the demons in a level is the stated goal, in reality the game is about navigating yourself between platforms, using the ability of the cards to assist you. The environments are great looking, and the soundtrack is incredible. The game has an arcade/Dreamcast gameplay loop, where it\'s incredibly addicting to play level after level, memorizing the way forward to get the best times. If this game was just a level select screen, I think it might be my favorite game of the year thus far, but sadly this game has one major flaw, and that is the plot. It\'s an incredibly stereotypical anime amnesia plot full of boring psychopathic enemies, cringy sexual innuendos, and awful voice acting. Yes, I know the guy who played Spike is in it, but this is not his best performance. I ended up muting the voice audio, and that helped quite a bit, but the plot still has nothing to offer. If you skip all the cutscenes though, I think this game is definitely a must play.', 'This gets 4 stars because of the great artstyle, S tier Machine Girl music, interesting gameplay gimmics, and great level design. -1 star for the story and visual novel aspects.', 'Neon White é uma mistura de FPS com Visual Novel, pode parecer uma mistura estranha a primeiro momento,\n                     \n                     mas depois de alguns minutos de gameplay esse jogo vai sugar sua alma até os segundos finais da gameplay.\n                     \n                     Agora pega isso e coloca um toque de Speedrun... Pronto, NEON WHITE!\n                     \n                     A gameplay é absurdamente prazerosa, misturando tiroteios freneticos com um sistema parkour.\n                     \n                     Em relação a Visual Novel e a historia, não é a melhor historia de todos os tempos, mas cumpre seu papel em\n                     \n                     dar um background pro jogo.', ""i think this is more-or-less the game I was looking for when I bought mirror's edge in 2008""]",28K,374,452,1K
+213,Vagrant Story,"Jun 19, 2010","['Activision', 'id Software']",2.1,131,860,"['Adventure', 'Indie', 'Puzzle', 'Shooter']","The game is set in Ancient Greece and loosely based on its mythology. The player controls Kratos, a Spartan warrior in the service of the Olympian Gods. Kratos is guided by the goddess Athena, who instructs him to find the Sun God Helios, as the Dream God Morpheus has caused the remaining gods to slumber in Helios' absence. With the power of the sun, Morpheus and Persephone, the Queen of the Underworld, with the aid of the Titan Atlas, intend to destroy the Pillar of the World and in turn Olympus. God of War: Chains of Olympus is chronologically the second chapter in the series, which focuses on vengeance as its central theme.","['Played the beta on a friends ps3 and thought the game looked so good that I decided to get a ps3 to play it too. The art direction still holds up in a lot of ways and even though the campaign is disappointing it was still fun to play with the different classes in multilayer.', 'Killzone 3 is a first person shooter exclusive for the Playstation 3 released in 2011 and developed by Guerilla Games. Over the past year or so I’ve decided to go through the Killzone games after beating almost all the Halo series and the Resistance series (which I’ll review at some point later on). Having beaten Killzone 2 last year and temporarily given up on Mercenary after having my save data corrupted unknowingly, and with a buddy of mine going through the Killzone series on the highest difficulty as well. I decided to give this game a spin, and I have some thoughts. First I’ll go with the plot.', 'Rating: 7/10 -  Good', 'My review for killzone 2 applies here but the story is way worse. the gameplay is way more fun but they sacrificed the world building they set up for the past two games and it is a major blow to the franchise.', 'Great game despite ruining the franchise', 'Too short, controls too janky, predictable story, audio bugs.']",365,85,324,388
+879,Shin Megami Tensei: Devil Summoner - Soul Hackers,"Mar 26, 2021","['Nintendo', 'Square Enix']",2.9,46,355,"['Adventure', 'Puzzle', 'RPG', 'Simulator', 'Visual Novel']","Metal Gear Solid is a stealth game created by Hideo Kojima which follows the MSX2 video games Metal Gear and Metal Gear 2: Solid Snake. Despite a transition to 3D, Metal Gear Solid's gameplay remains similar to his predecessors. The game utilizes a traditional top-down view and the player must navigate the protagonist Solid Snake through the game's areas without being detected. Detection will set off an alarm which draws armed enemies to his location. Conversations with Snake's allies and cutscenes are used extensively to advance the plot and gain more insight into it. Metal Gear Solid is regarded as one of the greatest and most important video games of all time, and helped popularize the stealth genre and in-engine cinematic cutscenes.","['for whatever reason this game just completely vibes with me - when I am farming in another farming sim I think wistfully of my beautiful farm over in this game', 'I liked the character events and side quests, the farming was pretty good if lacking in depth when compared to other games, combat is not very good unfortunately, dungeon design is good through the early game, and around the same time those fall off the story does too, but ultimately i think theres a lot more good content than bad.', 'Honestly, the older I get, the more I realize how much I hate time-wasting mechanics.\n                     \n                     I really dislike stamina bars and time restrictions that limit what I can do in a ""day"", especially when that stamina bar dictates everything - from exploration to combat - and does not regenerate automatically for some fucking reason. I dislike trekking through overly-long levels and dungeons with a bunch of inconsequential loot as a reward for exploration. I dislike meandering story-telling where all of the characters are idiots and the pacing is constantly slowed down to explain things to you or being forced to ""regroup"" and stop your exploration.\n                     \n                     I\'ve just been having such a hard time getting into JRPGs lately, even though it used to be one of my favourite genres to play, and I dislike that I don\'t have the patience for this genre any more. As an adult and having to manage my time to make a place for things I enjoy like gaming and movies and reading, I really appreciate a game that doesn\'t waste my time more than anything else in the world.', ""The game is pretty clunky in many aspects:\n                     \n                     -plot is really bad (shitty time travel plot with clueless MC in medieval(relative to the world) times. am I supposed to scream in joy and feel smart when I hear about nanomachines, robots and other futuristic shit that every character is clueless about in a FARMING SIM.)\n                     \n                     -combat is a snoozefest with overly big dungeons\n                     \n                     -progression is fucked beyond repair (you need to play ungodly amount of time to upgrade tools, not sure if you ever get an opportunity to befriend characters (not that any of them are likeable enough)\n                     \n                     -you do quests for generic NPC's (why? totally blows social aspect from farming sims that people look for)\n                     \n                     - in medieval(relative to the world) times every dude looks like a femboy and I'm not talking about NB-gay-whatever shit that makes people avoid this game"", ""Can actually play as non-binary for once! 🙏\n                     \n                      Really\n                     \n                     makes a difference, considering the protagonist is meant to be relatively self-insert.\n                     \n                     Graphics on Switch version are often very bleary, especially noticeable in handheld mode. Shame, because it's otherwise very pretty. The character art is lovely.\n                     \n                     Engaging gameplay, allowing the player to create their own balance between farming and JRPG elements, without forcing either. It is more JRPG than it is farming sim (the farming doesn't have the same depth as is found in others of the genre), but one can take the quests and story at their own pace.\n                     \n                     Varied job system, and the story is interesting enough so far. Has side quests I actually want to do.\n                     \n                     Appealing characters (moreso for me when compared with other farming life sims). Everyone has nice voice acting – too bad it's limited to small lines here and there.\n                     \n                     Romance options are not gender-locked~\n                     \n                     And the music is lovely... Would definitely purchase the soundtrack if they release that."", 'Ich mag den Mix aus Farming Simulation und JRPG auch wenn das Storytelling etwas plump ist und nicht wirklich spannend erzählt. Die Dialoge sind sehr inhaltlos aber das Gameplay macht Spaß und unterhält.']",522,575,145,210
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which game has the highest rating?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2026-01-13 14:54:16 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Assuming dfs is already declared and contains the DataFrame
+# Extract the relevant DataFrame
+df = dfs[0]
+
+# Convert the 'rating' column to numeric for comparison
+df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
+
+# Find the game with the highest rating
+highest_rated_game = df.loc[df['rating'].idxmax()]
+
+# Prepare the result variable
+result = {
+    "type": "string",
+    "value": f"The game with the highest rating is '{highest_rated_game['title']}' with a rating of {highest_rated_game['rating']}."
+}
+
+# Output the result
+print(result)
+            ```
+            
+2026-01-13 14:54:16 [INFO] Executing Step 4: CachePopulation
+2026-01-13 14:54:16 [INFO] Executing Step 5: CodeCleaning
+2026-01-13 14:54:16 [INFO] 
+Code running:
+```
+df = dfs[0]
+df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
+highest_rated_game = df.loc[df['rating'].idxmax()]
+result = {'type': 'string', 'value': f"The game with the highest rating is '{highest_rated_game['title']}' with a rating of {highest_rated_game['rating']}."}
+print(result)
+        ```
+2026-01-13 14:54:16 [INFO] Executing Step 6: CodeExecution
+2026-01-13 14:54:16 [INFO] Executing Step 7: ResultValidation
+2026-01-13 14:54:16 [INFO] Answer: {'type': 'string', 'value': "The game with the highest rating is 'Elden Ring: Shadow of the Erdtree' with a rating of 4.8."}
+2026-01-13 14:54:16 [INFO] Executing Step 8: ResultParsing
+2026-01-13 15:06:42 [INFO] Question: how many genre in the list?
+2026-01-13 15:06:42 [INFO] Running PandasAI with openai LLM...
+2026-01-13 15:06:42 [INFO] Prompt ID: a78bdff1-75c7-4147-bfd7-54523ef3926c
+2026-01-13 15:06:42 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 15:06:42 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 15:06:42 [INFO] Executing Step 1: CacheLookup
+2026-01-13 15:06:42 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 15:06:42 [INFO] Using prompt: <dataframe>
+dfs[0]:16598x11
+rank,name,platform,year,genre,publisher,na_sales,eu_sales,jp_sales,other_sales,global_sales
+12110,Mobile Suit Gundam: Perfect One Year War,SCD,1982.0,Sports,Havas Interactive,2.13,5.09,1.48,0.66,5.42
+7345,Britney's Dance Beat,PC,1981.0,Adventure,Enix Corporation,0.63,0.98,0.95,0.11,4.12
+9008,Animal Kingdom: Wildlife Expedition,WiiU,1998.0,Fighting,Men-A-Vision,1.81,0.61,0.4,0.01,15.3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many genre in the list?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 15:06:42 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 15:06:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-13 15:06:51 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:16598x11
+rank,name,platform,year,genre,publisher,na_sales,eu_sales,jp_sales,other_sales,global_sales
+12110,Mobile Suit Gundam: Perfect One Year War,SCD,1982.0,Sports,Havas Interactive,2.13,5.09,1.48,0.66,5.42
+7345,Britney's Dance Beat,PC,1981.0,Adventure,Enix Corporation,0.63,0.98,0.95,0.11,4.12
+9008,Animal Kingdom: Wildlife Expedition,WiiU,1998.0,Fighting,Men-A-Vision,1.81,0.61,0.4,0.01,15.3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many genre in the list?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2026-01-13 15:06:51 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Assuming dfs is already declared and contains the DataFrame
+# For demonstration, let's create a sample DataFrame similar to the one provided
+data = {
+    'rank': [12110, 7345, 9008],
+    'name': ['Mobile Suit Gundam: Perfect One Year War', "Britney's Dance Beat", 'Animal Kingdom: Wildlife Expedition'],
+    'platform': ['SCD', 'PC', 'WiiU'],
+    'year': [1982.0, 1981.0, 1998.0],
+    'genre': ['Sports', 'Adventure', 'Fighting'],
+    'publisher': ['Havas Interactive', 'Enix Corporation', 'Men-A-Vision'],
+    'na_sales': [2.13, 0.63, 1.81],
+    'eu_sales': [5.09, 0.98, 0.61],
+    'jp_sales': [1.48, 0.95, 0.4],
+    'other_sales': [0.66, 0.11, 0.01],
+    'global_sales': [5.42, 4.12, 15.3]
+}
+
+# Create DataFrame
+dfs = [pd.DataFrame(data)]
+
+# Count unique genres
+unique_genres = dfs[0]['genre'].nunique()
+
+# Declare result var: 
+result = {
+    "type": "number",
+    "value": unique_genres
+}
+
+# Output the result
+print(result)
+            ```
+            
+2026-01-13 15:06:51 [INFO] Executing Step 4: CachePopulation
+2026-01-13 15:06:51 [INFO] Executing Step 5: CodeCleaning
+2026-01-13 15:06:51 [INFO] 
+Code running:
+```
+data = {'rank': [12110, 7345, 9008], 'name': ['Mobile Suit Gundam: Perfect One Year War', "Britney's Dance Beat", 'Animal Kingdom: Wildlife Expedition'], 'platform': ['SCD', 'PC', 'WiiU'], 'year': [1982.0, 1981.0, 1998.0], 'genre': ['Sports', 'Adventure', 'Fighting'], 'publisher': ['Havas Interactive', 'Enix Corporation', 'Men-A-Vision'], 'na_sales': [2.13, 0.63, 1.81], 'eu_sales': [5.09, 0.98, 0.61], 'jp_sales': [1.48, 0.95, 0.4], 'other_sales': [0.66, 0.11, 0.01], 'global_sales': [5.42, 4.12, 15.3]}
+unique_genres = dfs[0]['genre'].nunique()
+result = {'type': 'number', 'value': unique_genres}
+print(result)
+        ```
+2026-01-13 15:06:51 [INFO] Executing Step 6: CodeExecution
+2026-01-13 15:06:51 [INFO] Executing Step 7: ResultValidation
+2026-01-13 15:06:51 [INFO] Answer: {'type': 'number', 'value': 12}
+2026-01-13 15:06:51 [INFO] Executing Step 8: ResultParsing
+2026-01-13 15:07:06 [INFO] Question: how many sales in the list?
+2026-01-13 15:07:06 [INFO] Running PandasAI with openai LLM...
+2026-01-13 15:07:06 [INFO] Prompt ID: 9c75a6ce-da89-48a8-a0ab-ceca2e912152
+2026-01-13 15:07:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 15:07:06 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 15:07:06 [INFO] Executing Step 1: CacheLookup
+2026-01-13 15:07:06 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 15:07:06 [INFO] Using prompt: <dataframe>
+dfs[0]:16598x11
+rank,name,platform,year,genre,publisher,na_sales,eu_sales,jp_sales,other_sales,global_sales
+15531,Final Fantasy IV,XOne,2005.0,Role-Playing,Pinnacle,3.83,2.77,1.93,2.85,2.2
+5407,LEGO Batman: The Videogame,GG,1992.0,Simulation,Boost On,3.4,1.31,0.18,1.93,2.22
+4812,MLB 2006,NES,2017.0,Fighting,Mastiff,3.54,5.36,2.65,8.46,1.21
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many sales in the list?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 15:07:06 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 15:07:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-13 15:07:16 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:16598x11
+rank,name,platform,year,genre,publisher,na_sales,eu_sales,jp_sales,other_sales,global_sales
+15531,Final Fantasy IV,XOne,2005.0,Role-Playing,Pinnacle,3.83,2.77,1.93,2.85,2.2
+5407,LEGO Batman: The Videogame,GG,1992.0,Simulation,Boost On,3.4,1.31,0.18,1.93,2.22
+4812,MLB 2006,NES,2017.0,Fighting,Mastiff,3.54,5.36,2.65,8.46,1.21
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many sales in the list?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2026-01-13 15:07:16 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Assuming dfs is already defined and contains the DataFrame
+# For demonstration, let's create the DataFrame from the provided data
+data = {
+    "rank": [15531, 5407, 4812],
+    "name": ["Final Fantasy IV", "LEGO Batman: The Videogame", "MLB 2006"],
+    "platform": ["XOne", "GG", "NES"],
+    "year": [2005.0, 1992.0, 2017.0],
+    "genre": ["Role-Playing", "Simulation", "Fighting"],
+    "publisher": ["Pinnacle", "Boost On", "Mastiff"],
+    "na_sales": [3.83, 3.4, 3.54],
+    "eu_sales": [2.77, 1.31, 5.36],
+    "jp_sales": [1.93, 0.18, 2.65],
+    "other_sales": [2.85, 1.93, 8.46],
+    "global_sales": [2.2, 2.22, 1.21]
+}
+
+# Create the DataFrame
+dfs = [pd.DataFrame(data)]
+
+# Calculate total sales
+total_sales = dfs[0]['na_sales'].sum() + dfs[0]['eu_sales'].sum() + dfs[0]['jp_sales'].sum() + dfs[0]['other_sales'].sum()
+
+# Declare result var: 
+result = {
+    "type": "number",
+    "value": total_sales
+}
+
+# Print the result for verification
+print(result)
+            ```
+            
+2026-01-13 15:07:16 [INFO] Executing Step 4: CachePopulation
+2026-01-13 15:07:16 [INFO] Executing Step 5: CodeCleaning
+2026-01-13 15:07:16 [INFO] 
+Code running:
+```
+data = {'rank': [15531, 5407, 4812], 'name': ['Final Fantasy IV', 'LEGO Batman: The Videogame', 'MLB 2006'], 'platform': ['XOne', 'GG', 'NES'], 'year': [2005.0, 1992.0, 2017.0], 'genre': ['Role-Playing', 'Simulation', 'Fighting'], 'publisher': ['Pinnacle', 'Boost On', 'Mastiff'], 'na_sales': [3.83, 3.4, 3.54], 'eu_sales': [2.77, 1.31, 5.36], 'jp_sales': [1.93, 0.18, 2.65], 'other_sales': [2.85, 1.93, 8.46], 'global_sales': [2.2, 2.22, 1.21]}
+total_sales = dfs[0]['na_sales'].sum() + dfs[0]['eu_sales'].sum() + dfs[0]['jp_sales'].sum() + dfs[0]['other_sales'].sum()
+result = {'type': 'number', 'value': total_sales}
+print(result)
+        ```
+2026-01-13 15:07:16 [INFO] Executing Step 6: CodeExecution
+2026-01-13 15:07:16 [INFO] Executing Step 7: ResultValidation
+2026-01-13 15:07:16 [INFO] Answer: {'type': 'number', 'value': np.float64(8915.850000000002)}
+2026-01-13 15:07:16 [INFO] Executing Step 8: ResultParsing
+2026-01-13 15:13:34 [INFO] Question: Show me a bar chart of the top 5 games by rating
+2026-01-13 15:13:34 [INFO] Running PandasAI with openai LLM...
+2026-01-13 15:13:34 [INFO] Prompt ID: 45bca879-e7b4-4634-aa31-619b258966bc
+2026-01-13 15:13:34 [INFO] Executing Pipeline: GenerateChatPipeline
+2026-01-13 15:13:34 [INFO] Executing Step 0: ValidatePipelineInput
+2026-01-13 15:13:34 [INFO] Executing Step 1: CacheLookup
+2026-01-13 15:13:34 [INFO] Executing Step 2: PromptGeneration
+2026-01-13 15:13:34 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+608,Dead Space,"Aug 14, 2020","['JAST USA', 'Nitroplus']",3.2,465,47,"['Arcade', 'Indie', 'Simulator', 'Strategy', 'Tactical']","Metroid: Samus Returns is a remake of Metroid 2: Return of Samus.
+              
+              It uses a 3D graphic style with a side view camera that zooms in and changes for cutscenes. It also has new mechanics, items, and abilities.
+             
+
+              ""Brave the hostile terrain of an alien planet teeming with vicious life forms as legendary bounty hunter Samus Aran. Her mission? Terminate the Metroid menace in this masterful reimagining of her 1991 Game Boy adventure. Samus Aran’s arsenal has been enhanced with new moves and abilities that are sure to help her face the deadly surprises that await. This intense, side-scrolling action platformer is a great entry point into the Metroid franchise and perfect for returning fans as well, and it’s available only on the Nintendo 3DS family of systems.""","['10/10 the itch to the scratch for Tetris and also the horrible friend-hating competitiveness of the flip mode.', 'gao i like the tetris but im bad at the puyo', ""This is the CVS2 of puzzle games. You pretty much get the two biggest and best competitive puzzle games and mash them together. Is it balanced? I don't think so. Is it fun and can you play however you want? hell yeah!!!! Pretty much has all the modes you could ever want from either a puyo game or a tetris game. It's also a great time in multiplayer because usually everyone in the group is good at at least one of the two game modes, which not only balances modes like swap out but also keeps the game accessible. Must play if you like puzzle games, this (or its sequel that's pretty much more of the same) is deadass the only one you need."", ""Puyo Puyo Tetris is interesting.\n                     \n                     You'll pick it up and then days later you've realized you spent hours memorizing a ton of useless information for no reason. but it was FUN so whatever."", ""I only really got this game to play Puyo Puyo because Sonic Mania made me interested in the series. I don't care for anything else in this game but the Puyo Puyo, which it does extremely well. The multiplayer is intuitive and fun to play with friends but not online with random strangers. I'm not really a Tetris fan, but the times I played it, it sure seemed like Tetris in that it controlled well and seemed fun. I recommend it if you don't have a way to play either game mode."", 'this is a fightan game']",1.9K,57,3.2K,491
+391,Sekiro: Shadows Die Twice - GOTY Edition,"Apr 09, 2018","['SCE Japan Studio', 'Sony Computer Entertainment Europe']",4.1,1.9K,1K,"['Indie', 'RPG', 'Simulator', 'Strategy']","Pokémon Black Version and Pokémon White Version are the primary paired versions of Generation V.
+              
+              Black and White follow the trends set up by previous games in the series. Two player characters (one male and one female) travel a new region, Unova, on their Pokémon journeys. This region is inhabited by various Pokémon, and unlike before, none of those available prior to Generation V can be obtained before completing the main story by defeating Team Plasma.
+              
+              The games' names were revealed on the official Japanese Pokémon website on April 9, 2010, and scans from the subsequent issue of the magazine leaked the following day, April 10.
+              
+              Pokémon Black and White are followed in 2012 by two sequels, Pokémon Black 2 and White 2, which are set two years after the events of Black and White. Black 2 and White 2 are the second and final paired versions of Generation V.","['que jogo lindo.\n                     \n                     é bem punitivo, o dante tem vida de papelão, mas o combate é muito livre, no inicio é dificil pra burro, mas depois que você adquire skills pro devil trigger e pro dante, vai facilitando e ficando muito mais dinâmico, a câmera é um inimigo a mais no jogo, mas compensa com a direção de arte foda. ótimo inicio de franquia, sim, eu serei covarde e vou pular o 2 como um bundão, não achei meu tempo no lixo.', ""Dated, but credit where it's due for laying a foundation for the series"", 'BAD FUCKING GAME', 'https://youtu.be/CV9LyYzLUyQ', 'the only reason its this high is because i was a little pussy that abused save states every time i died', ""The game can be pretty janky and frustating control/camera wise and some things may look bad because of what we take for granted on this genre today, but when you keep in mind that this game actually created it, it's actually pretty fucking impressive what Hideki Kamiya did here, the guy is a genius""]",9.1K,34,596,379
+1358,Life is Strange 2,"Jan 24, 1996",['Tour De Pizza'],3.7,167,887,"['Indie', 'Strategy']","Bug Fables: The Everlasting Sapling is an adventure RPG following three heroes, Vi, Kabbu, and Leif, as they embark on an epic quest in Bugaria in search of treasure and immortality. The game combines flat objects with 3D physics as the player jumps and utilizes the heroes’ unique abilities to solve puzzles and stun enemies while exploring a variety of unique, colorful areas. Battles are turn-based and with timed button inputs that can enhance your abilities.","['Great game, the combat is overly enjoyable and the story are nice. All the boss fights are basically the same which makes me sad.', '17.9 hours to complete\n                     \n                     i fucking love this game, the combat mechanics are top tier. this was the first game i completed when i was a kid and its still great replaying it.', 'mark hamill is in it', 'Honestly this game is so perfectly linear with collectibles that encourages you to explore a great crafted rich environment. Absolutely a shame that each game just stuffs more and more side content that takes away from the game. And slowly removes itself from the gothic art style in favour for bland gritty realism', 'Awesome (expect when itâ€™s not (but when it isðŸ‘ŒðŸ‘ŒðŸ‘ŒðŸ˜©))', ""I remember playing this game and enjoying it, but it was a long enough time ago I don't want to give it a rating.""]",199,430,535,36
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Show me a bar chart of the top 5 games by rating
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2026-01-13 15:13:34 [INFO] Executing Step 3: CodeGenerator
+2026-01-13 15:13:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-13 15:13:44 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1512x14
+unnamed:_0,title,release_date,team,rating,times_listed,number_of_reviews,genres,summary,reviews,plays,playing,backlogs,wishlist
+608,Dead Space,"Aug 14, 2020","['JAST USA', 'Nitroplus']",3.2,465,47,"['Arcade', 'Indie', 'Simulator', 'Strategy', 'Tactical']","Metroid: Samus Returns is a remake of Metroid 2: Return of Samus.
+              
+              It uses a 3D graphic style with a side view camera that zooms in and changes for cutscenes. It also has new mechanics, items, and abilities.
+             
+
+              ""Brave the hostile terrain of an alien planet teeming with vicious life forms as legendary bounty hunter Samus Aran. Her mission? Terminate the Metroid menace in this masterful reimagining of her 1991 Game Boy adventure. Samus Aran’s arsenal has been enhanced with new moves and abilities that are sure to help her face the deadly surprises that await. This intense, side-scrolling action platformer is a great entry point into the Metroid franchise and perfect for returning fans as well, and it’s available only on the Nintendo 3DS family of systems.""","['10/10 the itch to the scratch for Tetris and also the horrible friend-hating competitiveness of the flip mode.', 'gao i like the tetris but im bad at the puyo', ""This is the CVS2 of puzzle games. You pretty much get the two biggest and best competitive puzzle games and mash them together. Is it balanced? I don't think so. Is it fun and can you play however you want? hell yeah!!!! Pretty much has all the modes you could ever want from either a puyo game or a tetris game. It's also a great time in multiplayer because usually everyone in the group is good at at least one of the two game modes, which not only balances modes like swap out but also keeps the game accessible. Must play if you like puzzle games, this (or its sequel that's pretty much more of the same) is deadass the only one you need."", ""Puyo Puyo Tetris is interesting.\n                     \n                     You'll pick it up and then days later you've realized you spent hours memorizing a ton of useless information for no reason. but it was FUN so whatever."", ""I only really got this game to play Puyo Puyo because Sonic Mania made me interested in the series. I don't care for anything else in this game but the Puyo Puyo, which it does extremely well. The multiplayer is intuitive and fun to play with friends but not online with random strangers. I'm not really a Tetris fan, but the times I played it, it sure seemed like Tetris in that it controlled well and seemed fun. I recommend it if you don't have a way to play either game mode."", 'this is a fightan game']",1.9K,57,3.2K,491
+391,Sekiro: Shadows Die Twice - GOTY Edition,"Apr 09, 2018","['SCE Japan Studio', 'Sony Computer Entertainment Europe']",4.1,1.9K,1K,"['Indie', 'RPG', 'Simulator', 'Strategy']","Pokémon Black Version and Pokémon White Version are the primary paired versions of Generation V.
+              
+              Black and White follow the trends set up by previous games in the series. Two player characters (one male and one female) travel a new region, Unova, on their Pokémon journeys. This region is inhabited by various Pokémon, and unlike before, none of those available prior to Generation V can be obtained before completing the main story by defeating Team Plasma.
+              
+              The games' names were revealed on the official Japanese Pokémon website on April 9, 2010, and scans from the subsequent issue of the magazine leaked the following day, April 10.
+              
+              Pokémon Black and White are followed in 2012 by two sequels, Pokémon Black 2 and White 2, which are set two years after the events of Black and White. Black 2 and White 2 are the second and final paired versions of Generation V.","['que jogo lindo.\n                     \n                     é bem punitivo, o dante tem vida de papelão, mas o combate é muito livre, no inicio é dificil pra burro, mas depois que você adquire skills pro devil trigger e pro dante, vai facilitando e ficando muito mais dinâmico, a câmera é um inimigo a mais no jogo, mas compensa com a direção de arte foda. ótimo inicio de franquia, sim, eu serei covarde e vou pular o 2 como um bundão, não achei meu tempo no lixo.', ""Dated, but credit where it's due for laying a foundation for the series"", 'BAD FUCKING GAME', 'https://youtu.be/CV9LyYzLUyQ', 'the only reason its this high is because i was a little pussy that abused save states every time i died', ""The game can be pretty janky and frustating control/camera wise and some things may look bad because of what we take for granted on this genre today, but when you keep in mind that this game actually created it, it's actually pretty fucking impressive what Hideki Kamiya did here, the guy is a genius""]",9.1K,34,596,379
+1358,Life is Strange 2,"Jan 24, 1996",['Tour De Pizza'],3.7,167,887,"['Indie', 'Strategy']","Bug Fables: The Everlasting Sapling is an adventure RPG following three heroes, Vi, Kabbu, and Leif, as they embark on an epic quest in Bugaria in search of treasure and immortality. The game combines flat objects with 3D physics as the player jumps and utilizes the heroes’ unique abilities to solve puzzles and stun enemies while exploring a variety of unique, colorful areas. Battles are turn-based and with timed button inputs that can enhance your abilities.","['Great game, the combat is overly enjoyable and the story are nice. All the boss fights are basically the same which makes me sad.', '17.9 hours to complete\n                     \n                     i fucking love this game, the combat mechanics are top tier. this was the first game i completed when i was a kid and its still great replaying it.', 'mark hamill is in it', 'Honestly this game is so perfectly linear with collectibles that encourages you to explore a great crafted rich environment. Absolutely a shame that each game just stuffs more and more side content that takes away from the game. And slowly removes itself from the gothic art style in favour for bland gritty realism', 'Awesome (expect when itâ€™s not (but when it isðŸ‘ŒðŸ‘ŒðŸ‘ŒðŸ˜©))', ""I remember playing this game and enjoying it, but it was a long enough time ago I don't want to give it a rating.""]",199,430,535,36
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Show me a bar chart of the top 5 games by rating
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2026-01-13 15:13:44 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assuming dfs is already defined and contains the DataFrame
+# Extract the relevant DataFrame
+df = dfs[0]
+
+# Convert the 'rating' column to numeric for sorting
+df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
+
+# Get the top 5 games by rating
+top_games = df.nlargest(5, 'rating')[['title', 'rating']]
+
+# Plotting the bar chart
+plt.figure(figsize=(10, 6))
+plt.barh(top_games['title'], top_games['rating'], color='skyblue')
+plt.xlabel('Rating')
+plt.title('Top 5 Games by Rating')
+plt.xlim(0, 5)  # Assuming ratings are out of 5
+plt.grid(axis='x')
+
+# Save the plot as a PNG file
+chart_path = 'top_5_games_by_rating.png'
+plt.savefig(chart_path)
+plt.close()
+
+# Declare result var: 
+result = {
+    "type": "plot",
+    "value": chart_path
+}
+            ```
+            
+2026-01-13 15:13:44 [INFO] Executing Step 4: CachePopulation
+2026-01-13 15:13:44 [INFO] Executing Step 5: CodeCleaning
+2026-01-13 15:13:44 [INFO] Saving charts to /Users/OpenWorld/Documents/DataTalk/exports/charts/temp_chart.png
+2026-01-13 15:13:44 [INFO] 
+Code running:
+```
+df = dfs[0]
+df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
+top_games = df.nlargest(5, 'rating')[['title', 'rating']]
+plt.figure(figsize=(10, 6))
+plt.barh(top_games['title'], top_games['rating'], color='skyblue')
+plt.xlabel('Rating')
+plt.title('Top 5 Games by Rating')
+plt.xlim(0, 5)
+plt.grid(axis='x')
+chart_path = '/Users/OpenWorld/Documents/DataTalk/exports/charts/temp_chart.png'
+plt.savefig(chart_path)
+plt.close()
+result = {'type': 'plot', 'value': chart_path}
+        ```
+2026-01-13 15:13:44 [INFO] Executing Step 6: CodeExecution
+2026-01-13 15:13:44 [INFO] Executing Step 7: ResultValidation
+2026-01-13 15:13:44 [INFO] Answer: {'type': 'plot', 'value': '/Users/OpenWorld/Documents/DataTalk/exports/charts/temp_chart.png'}
+2026-01-13 15:13:44 [INFO] Executing Step 8: ResultParsing
