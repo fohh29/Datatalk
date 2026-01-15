@@ -30,14 +30,13 @@ elif menu == "Upload & Clean":
         if st.button("Run Professional Cleaning"):
             cleaned_df = clean_data(df)
             outliers = get_outlier_report(cleaned_df)
-            st.session_state['data'] = cleaned_df  # We save it as 'data'
+            st.session_state['data'] = cleaned_df
             st.success("Cleaning complete! Data is now standardized.")
             st.write("### Outlier Report (IQR Method):", outliers)
 
 elif menu == "Chat with Data":
     st.header("💬 Chat with your Dataset")
     
-    # We check if 'data' exists in session state (from the previous tab)
     if 'data' in st.session_state:
         user_query = st.text_input("Ask a question (e.g., 'Plot a bar chart of top 5 games by rating')")
         
@@ -45,10 +44,9 @@ elif menu == "Chat with Data":
             if user_query:
                 from src.llm_engine import chat_with_data
                 with st.spinner("AI is thinking..."):
-                    # Call the function 
                     response = chat_with_data(st.session_state['data'], user_query)
                     
-                    # THE VISUALIZATION :
+                    # VISUALIZATION LOGIC: Detect and display chart if generated
                     if isinstance(response, str) and (".png" in response or ".jpg" in response):
                         st.image(response)
                         st.success("Chart generated successfully!")
@@ -60,4 +58,21 @@ elif menu == "Chat with Data":
 
 elif menu == "About Creator":
     st.header("👤 Project Developer")
-    st.write("Built for the DataTalk Capstone Project.")
+    st.write("### Name: Fouziya")
+    st.write("### Project: DataTalk AI")
+    st.write("### Course: AI-ML Development Course")
+    
+    st.divider()
+    
+    st.markdown("""
+    #### 🚀 About the Project
+    **DataTalk** was developed to bridge the gap between complex raw data and actionable insights. 
+    By combining **Streamlit** for the interface and **OpenAI's LLM** for reasoning, users can 
+    simply talk to their data to generate professional-grade visualizations and cleaning reports.
+    
+    #### 🛠️ Tech Stack
+    - **Frontend:** Streamlit
+    - **Logic:** Pandas & Python
+    - **AI Engine:** PandasAI & OpenAI GPT
+    - **Visualization:** Matplotlib / Seaborn
+    """)
