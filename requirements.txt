@@ -3,3 +3,4 @@ pandas==1.5.3
 openai
 pandasai==2.2.14
 seaborn
+pydantic==2.5.2
