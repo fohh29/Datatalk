@@ -6,18 +6,30 @@ def clean_data(df):
     # 1. Convert 'K' values (like 3.9K) to actual numbers (3900)
     def convert_k_to_num(value):
         if isinstance(value, str):
+            value = value.replace('$', '').replace(',', '') # Clean extra symbols
             if 'K' in value:
                 return float(value.replace('K', '')) * 1000
-        return value
+        try:
+            return float(value)
+        except:
+            return value
 
-    cols_to_fix = ['Times Listed', 'Number of Reviews', 'Plays', 'Playing', 'Backlogs', 'Wishlist']
+    cols_to_fix = ['Times Listed', 'Number of Reviews', 'Plays', 'Playing', 'Backlogs', 'Wishlist', 'Rating']
     for col in cols_to_fix:
         if col in df.columns:
-            df[col] = df[col].apply(convert_k_to_num).astype(float)
+            df[col] = df[col].apply(convert_k_to_num)
 
-    # 2. Fix the Genres column (Convert string "['RPG']" to a real list)
+    # 2. Fix the Genres column (Convert list string to a plain comma-separated string)
+    # This prevents the "unhashable type: list" error
     if 'Genres' in df.columns:
-        df['Genres'] = df['Genres'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+        def simplify_genres(x):
+            try:
+                if isinstance(x, str) and x.startswith('['):
+                    return ", ".join(ast.literal_eval(x))
+                return x
+            except:
+                return x
+        df['Genres'] = df['Genres'].apply(simplify_genres)
 
     # 3. Handle missing values
     df = df.fillna(0)
@@ -25,11 +37,11 @@ def clean_data(df):
     return df
 
 def get_outlier_report(df):
-    # Simple outlier check for the Rating column
     if 'Rating' in df.columns:
+        df['Rating'] = pd.to_numeric(df['Rating'], errors='coerce')
         q1 = df['Rating'].quantile(0.25)
         q3 = df['Rating'].quantile(0.75)
         iqr = q3 - q1
         outliers = df[(df['Rating'] < (q1 - 1.5 * iqr)) | (df['Rating'] > (q3 + 1.5 * iqr))]
         return f"Found {len(outliers)} outliers in Rating."
-    return "No Rating column found for outlier analysis."
+    return "No Rating column found."
