@@ -4,3 +4,4 @@ openai
 pandasai==2.2.14
 seaborn
 pydantic==2.5.2
+python-dotenv
