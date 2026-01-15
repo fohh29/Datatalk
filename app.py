@@ -28,25 +28,35 @@ elif menu == "Upload & Clean":
         st.write("### Raw Data Preview", df.head())
         
         if st.button("Run Professional Cleaning"):
-            # This calls your logic from src/data_processor.py
             cleaned_df = clean_data(df)
             outliers = get_outlier_report(cleaned_df)
-            st.session_state['data'] = cleaned_df
+            st.session_state['data'] = cleaned_df  # We save it as 'data'
             st.success("Cleaning complete! Data is now standardized.")
             st.write("### Outlier Report (IQR Method):", outliers)
 
 elif menu == "Chat with Data":
     st.header("💬 Chat with your Dataset")
-    api_key = st.text_input("Enter OpenAI API Key", type="password")
     
+    # We check if 'data' exists in session state (from the previous tab)
     if 'data' in st.session_state:
-        user_query = st.text_input("Ask a question (e.g., 'Which column has the highest values?')")
+        user_query = st.text_input("Ask a question (e.g., 'Plot a bar chart of top 5 games by rating')")
+        
         if st.button("Ask AI"):
-            from src.llm_engine import chat_with_data
-            result = chat_with_data(st.session_state['data'], user_query, api_key)
-            st.write("### Result:", result)
+            if user_query:
+                from src.llm_engine import chat_with_data
+                with st.spinner("AI is thinking..."):
+                    # Call the function 
+                    response = chat_with_data(st.session_state['data'], user_query)
+                    
+                    # THE VISUALIZATION :
+                    if isinstance(response, str) and (".png" in response or ".jpg" in response):
+                        st.image(response)
+                        st.success("Chart generated successfully!")
+                    else:
+                        st.write("### Result:")
+                        st.write(response)
     else:
-        st.warning("Please upload and clean data first!")
+        st.warning("Please upload and clean data first in the 'Upload & Clean' tab!")
 
 elif menu == "About Creator":
     st.header("👤 Project Developer")

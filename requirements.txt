@@ -6,3 +6,4 @@ seaborn
 pydantic==2.5.2
 python-dotenv
 PyYAML
+matplotlib
