@@ -1,5 +1,5 @@
-streamlit
-pandas>=2.0.0
+streamlit==1.31.0
+pandas==2.1.4
 openai
-pandasai
+pandasai==2.2.14
 seaborn
